@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        body{
+            padding-top:80px;
+        }
+        .fix{
+            position:fixed;
+            top:0;
+            right:0;
+            left:0;
+            background-color: white;
+        }
+        .first-text{
+            font-size: 18px;
+            padding:14px 2px;
+            text-align: center;
+            background-image: linear-gradient(white, rgba(204, 190, 190, 0.795));
+        }
+
+        .top-nav{
+            text-align:center;
+            background-color: black;
+            color:white;
+        }
+
+        .top-nav p{
+            display: inline-block;
+            padding:2px 8px;
+        }
+
+        .top-nav p:hover{
+            color:black;
+            background-color: white;
+        }
+        
+        .all{
+            width:69%;
+            margin:auto;
+        }
+        .top{
+            width:100%;
+            background-image: linear-gradient(67deg, black, blue, red, black);
+            padding:9px 20px;
+            padding-bottom: 24px;
+            display:flex;justify-content: space-between;
+        }
+
+        .topl{
+            width: 200px;
+            display: inline-block;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .top-right {
+            width:49%;
+            color:white;
+        }
+
+        .top-right p{
+            margin: 18px 5px;
+        }
+
+        .top-right button{
+            padding:5px 12px;
+            margin-top:10px;
+            border-radius:5px;
+            border-style:none;
+            color:rgba(74, 88, 218, 0.89);
+            background-image:linear-gradient(white, rgba(204, 190, 190, 0.842));
+        }
+
+
+        .middle{
+            padding:17px 16px;
+            margin-top:24px;
+            border-bottom: 1px solid rgba(187, 175, 175, 0.829);
+            text-align:center;
+        }
+
+        .middle h1{
+            color:rgba(41, 58, 116, 0.863);
+            margin-bottom:22px;
+        }
+
+        .middle p{
+            font-size:13px;
+        }
+
+        .middle2{
+            display: flex;
+            border-bottom: 1px solid rgba(187, 175, 175, 0.829);
+            padding-bottom: 23px;
+            padding-top:20px
+        }
+
+        .middle2 p{
+            font-size:12px;
+        }
+
+        .middle2 div{
+            display: inline-block;
+            width:32%;
+            margin: 0px 5px;
+        }
+
+        .middelec{
+            margin-top: 5px;
+        }
+
+        h4{
+            color:rgba(55, 74, 138, 0.747);
+            font-size: 13px;
+        }
+
+        .middle2 p, h4, button{
+            text-align: left;
+        }
+
+        .middle2 button{
+            padding:0 10px;
+            padding-bottom: 2px;
+            background-color: rgb(15, 15, 138);
+            color:white;
+            border-radius: 9px;
+            border-style:none;
+            font-size: 11px;
+        }
+        .last{
+            font-size: 13px;
+            margin-bottom:10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .te{
+            width: 210px;
+            height: 50px;
+            border:1px solid rgba(12, 12, 12, 0.87);
+            background-image: linear-gradient(80deg, red,black, blue, yellow,violet, maroon, black, black, green);
+            margin-left: 12px;
+        }
+
+        .foot{
+            background-color: rgb(14, 13, 13);
+            color:rgb(192, 182, 182);
+            display:flex;
+            font-size:13px;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .fl p{
+            padding:18px 11px;
+            display: inline-block;
+        }
+        .fl{
+            /* border: 2px solid yellow; */
+            position: relative;
+        }
+        .fl::before{
+            content:"\f099";
+            position:absolute;
+            top: 0;
+            right: 0;
+            /* border: 2px solid ; */
+        }
+
+        .fl p:hover{
+            color:rgb(12, 12, 12);
+            background-color: rgb(192, 182, 182);
+        }
+    </style>
+</head>
+<body>
+    <div class="fix">
+        <div class="first-text">WebsiteTemplate</div>
+        <div class="top-nav">
+            <p>Home</p>
+            <p>Menu</p>
+            <p>Contact</p>
+            <p>Aurth</p>
+            <p>Interests</p>
+            <p>About Us</p>
+        </div>
+    </div>
+
+    <div class="all">
+
+        <div class="top">
+            <div class="top-right">
+                <h1>Experience.Success. <br>Awesomeness.</h1>
+                <p>Some text Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident explicabo quo placeat fugit.</p>
+                <button>Our service</button>
+                <button>Get a Code</button>
+            </div>
+
+            <div class="topl">
+                <img src="image/leno-removebg-preview.png" alt="">
+            </div>
+        </div>
+
+        <div class="middle">
+            <h1>Welcome to our web site</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias ratione totam eligendi consequuntur vero officiis deserunt laborum harum aperiam consectetur. Ipsam quisquam ducimus deserunt expedita iure quod odit neque quam, molestiae voluptatum incidunt eaque culpa vitae veritatis quas veniam inventore!</p>
+        </div>
+
+        <div class="middle2">
+
+            <div class="middlel">
+                <h4> What we do</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi alias officiis tenetur?</p>
+                <button>See me</button>
+            </div>
+
+            <div class="middlec">
+                <h4>Our service</h4>
+               <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat cupiditate .</p>
+               <button>See me</button>
+            </div>
+
+            <div class="middler">
+                <h4>Our Advantages</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae natus quo libero!</p>
+                <button>See me</button>
+            </div>
+
+        </div>
+
+        <div class="last">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatibus accusantium alias enim. Laboriosam doloremque similique commodi non. Vero fugiat maxime quibusdam id deleniti veritatis et suscipit ex, error blanditiis! Ratione labore corporis blanditiis numquam aliquid, aperiam officia nulla alias? Suscipit ex deserunt optio esse veritatis harum magnam nostrum unde!</p>
+            <div class="te"></div>
+        </div>
+
+    </div>
+    
+    <footer class="foot">
+
+        <div class="fr"><p>&copy;Copyright My Business.com</p>
+        </div>
+
+        <div class="fl">
+            <p>More</p>
+            <p>My phone</p>
+            <p>Call</p>
+            <p>Text Us</p>
+            <p>About</p>
+        </div>
+    </footer>
+
+    <script>
+        // console.error('You cant access this site at the moment!');
+        // console.table('Hello', 'table')
+        // console.warn('This is a warning section!!!')
+
+        let x = 7;
+        let X = 8;
+    </script>
+</body>
+</html>
